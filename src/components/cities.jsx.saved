@@ -1,0 +1,23 @@
+import React, { Component } from "react";
+// Input: country name
+// output: Cities for that country Possibly in Select
+
+function Cities(props) {
+  const Usa = ["New York", "Arizona", "Georgia", "Kentucy"];
+  const Canada = ["Toronto, Vancouver"];
+  const countryName = props.countryName;
+  let select;
+
+  if (countryName) {
+    select = (
+      <select>
+        {countryName.map(cname => (
+          <option>{cname}</option>
+        ))}
+      </select>
+    );
+  }
+
+  return <div>{select}</div>;
+}
+export default Cities;
