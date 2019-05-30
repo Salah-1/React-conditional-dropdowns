@@ -10,9 +10,10 @@ That means:
 If USA is selected, show New York, Atlanta etc.
 If Canada is selected show Toronto, Vancouver etc.
 
-To view the real code look at src/components/
+To view the real **code** look at **src/components/**
 
-**To achieve this**, i'm using what's known as "conditional rendering" in React.js.
+**To achieve this**, i'm using what's known as *conditional rendering* in React.js.
+
  See docs here (https://reactjs.org/docs/conditional-rendering.html)
 
 
